@@ -29,18 +29,26 @@ Twin-Tech is an AI-powered job marketplace platform that matches job seekers wit
 Run the following commands. 
     ``` bash
     python manage.py makemigrations
-    python manage.py migrate
+    python manage.py migrate        
 
 2. Create super-user (Optional);
-```bash
-python manage.py createsuperuser
+
+    ```python manage.py createsuperuser```
 follow the prompts to create your own ADMIN,  you can also use my already created credentials.
 
 # Running the application. 
 
 1. Starting the development server/ Localhost. 
-``` bash
+
 python manage.py runserver
+# The application will be accessible under localhost.  http://localhost:8000/.
+Access the admin panel:
 
+# Visit http://localhost:8000/admin/
+Log in with the superuser credentials created earlier.
+Access the main application:
 
+# Visit http://localhost:8000/
+Explore and test the features.
 
+# Happy coding:
