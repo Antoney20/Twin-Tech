@@ -18,16 +18,29 @@ Twin-Tech is an AI-powered job marketplace platform that matches job seekers wit
 
    ```bash
    git clone https://github.com/Antoney20/Twin-Tech.git  
-   cd twin-tech-job-marketplace
+   cd project
 
    Optionally, you can download the Zip folder, and extract the contents of the project.
 
 ## Database Setup.
 - Here we are primarily using MySQLite as our default DB.
 * steps;
-1.   Apply migrations, Run the following commands. 
-    ``` python manage.py migrate ```.
+1.   Apply migrations, (optional)
+Run the following commands. 
+    ``` bash
+    python manage.py makemigrations
+    python manage.py migrate
 
-2. 
+2. Create super-user (Optional);
+```bash
+python manage.py createsuperuser
+follow the prompts to create your own ADMIN,  you can also use my already created credentials.
+
+# Running the application. 
+
+1. Starting the development server/ Localhost. 
+``` bash
+python manage.py runserver
+
 
 
