@@ -18,7 +18,7 @@ Twin-Tech is an AI-powered job marketplace platform that matches job seekers wit
 
    ```bash
    git clone https://github.com/Antoney20/Twin-Tech.git  
-   cd project
+   cd project ```
 
    Optionally, you can download the Zip folder, and extract the contents of the project.
 
