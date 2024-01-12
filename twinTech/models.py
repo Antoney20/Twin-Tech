@@ -24,4 +24,5 @@ class Job(models.Model):
     requirements = models.CharField(max_length=255)  
     experience_required = models.IntegerField()
     location = models.CharField(max_length=10, choices=JOB_LOCATIONS)
+    image = models.FileField(upload_to='job_poster/', null=True, blank=True)
     salary = models.DecimalField(max_digits=10, decimal_places=2)

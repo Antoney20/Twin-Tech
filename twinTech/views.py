@@ -96,6 +96,7 @@ def submit_job(request):
             requirements=requirements,
             experience_required=experience,
             location=location,
+            image = image,
             salary=salary
         )
 
